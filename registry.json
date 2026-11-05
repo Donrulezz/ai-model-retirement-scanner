@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-11-05",
  "models": [
   {
    "id": "gpt-4o-2024-08-06",
@@ -141,7 +141,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
    "replacement": "gpt-5.6-sol",
-   "note": "",
+   "note": "On Azure OpenAI it retires earlier, on 19 November 2026.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -150,7 +150,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
    "replacement": "gpt-5.6-sol",
-   "note": "",
+   "note": "On Azure OpenAI it retires earlier, on 19 November 2026.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -213,7 +213,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
    "replacement": "gpt-5.6-sol",
-   "note": "Use reasoning.mode pro on the replacement.",
+   "note": "Use reasoning.mode pro on the replacement. On Azure OpenAI it retires earlier, on 19 November 2026.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -222,7 +222,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
    "replacement": "gpt-5.6-sol",
-   "note": "Use reasoning.mode pro on the replacement.",
+   "note": "Use reasoning.mode pro on the replacement. On Azure OpenAI it retires earlier, on 19 November 2026.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -281,6 +281,15 @@
    "match": "exact"
   },
   {
+   "id": "gpt-realtime-2025-08-28",
+   "provider": "OpenAI",
+   "shutdown": "2027-01-20",
+   "replacement": "gpt-realtime-2.1",
+   "note": "",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
    "id": "gpt-audio",
    "provider": "OpenAI",
    "shutdown": "2027-01-20",
@@ -290,10 +299,37 @@
    "match": "exact"
   },
   {
+   "id": "gpt-audio-2025-08-28",
+   "provider": "OpenAI",
+   "shutdown": "2027-01-20",
+   "replacement": "gpt-audio-1.5",
+   "note": "",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gpt-realtime-mini",
+   "provider": "OpenAI",
+   "shutdown": "2027-01-20",
+   "replacement": "gpt-realtime-2.1-mini",
+   "note": "",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
    "id": "gpt-realtime-mini-2025-12-15",
    "provider": "OpenAI",
    "shutdown": "2027-01-20",
    "replacement": "gpt-realtime-2.1-mini",
+   "note": "",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gpt-audio-mini",
+   "provider": "OpenAI",
+   "shutdown": "2027-01-20",
+   "replacement": "gpt-audio-1.5",
    "note": "",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -473,7 +509,7 @@
    "id": "gpt-3.5-turbo",
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
-   "replacement": "a current model",
+   "replacement": "gpt-5.6-terra",
    "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -482,7 +518,16 @@
    "id": "gpt-3.5-turbo-0125",
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
-   "replacement": "a current model",
+   "replacement": "gpt-5.6-terra",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gpt-3.5-turbo-completions",
+   "provider": "OpenAI",
+   "shutdown": "2026-10-23",
+   "replacement": "gpt-5.6-terra",
    "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -491,7 +536,7 @@
    "id": "gpt-4",
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
-   "replacement": "a current model",
+   "replacement": "gpt-5.6-sol",
    "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -500,7 +545,25 @@
    "id": "gpt-4-0613",
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
-   "replacement": "a current model",
+   "replacement": "gpt-5.6-sol",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gpt-4-0613-completions",
+   "provider": "OpenAI",
+   "shutdown": "2026-10-23",
+   "replacement": "gpt-5.6-sol",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gpt-4-completions",
+   "provider": "OpenAI",
+   "shutdown": "2026-10-23",
+   "replacement": "gpt-5.6-sol",
    "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -509,7 +572,7 @@
    "id": "gpt-4-1106-preview",
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
-   "replacement": "a current model",
+   "replacement": "gpt-5.6-sol",
    "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -518,7 +581,7 @@
    "id": "gpt-4-turbo",
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
-   "replacement": "a current model",
+   "replacement": "gpt-5.6-sol",
    "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -527,25 +590,16 @@
    "id": "gpt-4-turbo-2024-04-09",
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
-   "replacement": "a current model",
+   "replacement": "gpt-5.6-sol",
    "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
   {
-   "id": "gpt-4.1-nano",
+   "id": "gpt-4-turbo-completions",
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
-   "replacement": "a current model",
-   "note": "Already shut down: requests fail today.",
-   "source": "https://developers.openai.com/api/docs/deprecations",
-   "match": "exact"
-  },
-  {
-   "id": "gpt-4.1-nano-2025-04-14",
-   "provider": "OpenAI",
-   "shutdown": "2026-10-23",
-   "replacement": "a current model",
+   "replacement": "gpt-5.6-sol",
    "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -554,7 +608,25 @@
    "id": "gpt-4o-2024-05-13",
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
-   "replacement": "a current model",
+   "replacement": "gpt-5.6-sol",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gpt-4.1-nano",
+   "provider": "OpenAI",
+   "shutdown": "2026-10-23",
+   "replacement": "gpt-5.6-luna",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gpt-4.1-nano-2025-04-14",
+   "provider": "OpenAI",
+   "shutdown": "2026-10-23",
+   "replacement": "gpt-5.6-luna",
    "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -563,7 +635,7 @@
    "id": "gpt-image-1",
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
-   "replacement": "a current model",
+   "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
    "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -572,8 +644,17 @@
    "id": "o1",
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
-   "replacement": "a current model",
-   "note": "Already shut down: requests fail today.",
+   "replacement": "gpt-5.6-sol",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-sol).",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "o1-2024-12-17",
+   "provider": "OpenAI",
+   "shutdown": "2026-10-23",
+   "replacement": "gpt-5.6-sol",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-sol).",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -581,8 +662,17 @@
    "id": "o1-pro",
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
-   "replacement": "a current model",
-   "note": "Already shut down: requests fail today.",
+   "replacement": "gpt-5.6-sol (reasoning.mode pro)",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-sol).",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "o1-pro-2025-03-19",
+   "provider": "OpenAI",
+   "shutdown": "2026-10-23",
+   "replacement": "gpt-5.6-sol (reasoning.mode pro)",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-sol).",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -590,8 +680,17 @@
    "id": "o3-mini",
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
-   "replacement": "a current model",
-   "note": "Already shut down: requests fail today.",
+   "replacement": "gpt-5.6-sol",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-terra).",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "o3-mini-2025-01-31",
+   "provider": "OpenAI",
+   "shutdown": "2026-10-23",
+   "replacement": "gpt-5.6-sol",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-terra).",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -599,8 +698,17 @@
    "id": "o4-mini",
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
-   "replacement": "a current model",
-   "note": "Already shut down: requests fail today.",
+   "replacement": "gpt-5.6-terra",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-terra).",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "o4-mini-2025-04-16",
+   "provider": "OpenAI",
+   "shutdown": "2026-10-23",
+   "replacement": "gpt-5.6-terra",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-terra).",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -659,12 +767,48 @@
    "match": "exact"
   },
   {
+   "id": "codex-mini",
+   "provider": "Azure OpenAI",
+   "shutdown": "2026-11-15",
+   "replacement": "a current model (Microsoft names none)",
+   "note": "Azure OpenAI model codex-mini, version 2025-05-16. After this date requests return 410 Gone.",
+   "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "match": "exact"
+  },
+  {
+   "id": "o3-deep-research",
+   "provider": "Azure OpenAI",
+   "shutdown": "2026-11-19",
+   "replacement": "gpt-5.6-sol",
+   "note": "Azure OpenAI version 2025-06-26. OpenAI's own API already shut it down on 23 July 2026.",
+   "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "match": "exact"
+  },
+  {
+   "id": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+   "provider": "Microsoft Foundry",
+   "shutdown": "2026-11-19",
+   "replacement": "a current model (Microsoft names none)",
+   "note": "Date for Microsoft Foundry deployments. After it, requests return 410 Gone.",
+   "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "match": "exact"
+  },
+  {
+   "id": "claude-sonnet-4-5",
+   "provider": "Microsoft Foundry",
+   "shutdown": "2026-11-30",
+   "replacement": "claude-sonnet-5-5",
+   "note": "The name Microsoft Foundry uses (version 1). On the Claude API, Anthropic's notice lists only the snapshot claude-sonnet-4-5-20250929, same date, so expect the alias to stop with it.",
+   "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "match": "exact"
+  },
+  {
    "id": "gemini-3.1-flash-tts-preview",
    "provider": "Google",
    "shutdown": "2026-11-17",
    "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
    "note": "",
-   "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+   "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"
   },
   {
@@ -673,7 +817,7 @@
    "shutdown": "2026-11-17",
    "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
    "note": "",
-   "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+   "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"
   },
   {
@@ -682,7 +826,7 @@
    "shutdown": "2026-11-17",
    "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
    "note": "",
-   "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+   "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"
   },
   {
@@ -691,7 +835,7 @@
    "shutdown": "2026-11-17",
    "replacement": "gemini-3.8-live",
    "note": "",
-   "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+   "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"
   },
   {
@@ -700,7 +844,25 @@
    "shutdown": "2026-11-17",
    "replacement": "gemini-3.8-live",
    "note": "",
-   "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-2.5-pro",
+   "provider": "Google",
+   "shutdown": "2026-12-01",
+   "replacement": "gemini-3.8-flash",
+   "note": "Gemini API: from this date Google routes requests to gemini-3.8-flash and bills them at its rates instead of refusing them. Check the breaking API changes in Google's migration guide before the switch.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-2.5-flash",
+   "provider": "Google",
+   "shutdown": "2026-12-01",
+   "replacement": "gemini-3.5-flash-lite",
+   "note": "Gemini API: from this date Google routes requests to gemini-3.5-flash-lite and bills them at its rates instead of refusing them. Check the breaking API changes in Google's migration guide before the switch.",
+   "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"
   },
   {
@@ -709,25 +871,223 @@
    "shutdown": "2027-03-15",
    "replacement": "gemini-3.1-flash-lite-image",
    "note": "",
-   "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-3.1-flash-lite",
+   "provider": "Google",
+   "shutdown": "2027-05-07",
+   "replacement": "gemini-3.5-flash-lite",
+   "note": "",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-embedding-001",
+   "provider": "Google",
+   "shutdown": "2028-05-14",
+   "replacement": "gemini-embedding-2",
+   "note": "",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "veo-3.1-generate-preview",
+   "provider": "Google",
+   "shutdown": "2026-10-22",
+   "replacement": "gemini-omni-1.1-flash",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "veo-3.1-fast-generate-preview",
+   "provider": "Google",
+   "shutdown": "2026-10-22",
+   "replacement": "gemini-omni-1.1-flash",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "veo-3.1-lite-generate-preview",
+   "provider": "Google",
+   "shutdown": "2026-10-22",
+   "replacement": "gemini-omni-1.1-flash",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "imagen-4.0-generate-001",
+   "provider": "Google",
+   "shutdown": "2026-08-17",
+   "replacement": "gemini-nano-banana-2.1",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "imagen-4.0-ultra-generate-001",
+   "provider": "Google",
+   "shutdown": "2026-08-17",
+   "replacement": "gemini-nano-banana-2.1",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "imagen-4.0-fast-generate-001",
+   "provider": "Google",
+   "shutdown": "2026-08-17",
+   "replacement": "gemini-nano-banana-2.1",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "veo-3.0-generate-001",
+   "provider": "Google",
+   "shutdown": "2026-06-30",
+   "replacement": "gemini-omni-1.1-flash",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "veo-3.0-fast-generate-001",
+   "provider": "Google",
+   "shutdown": "2026-06-30",
+   "replacement": "gemini-omni-1.1-flash",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "veo-2.0-generate-001",
+   "provider": "Google",
+   "shutdown": "2026-06-30",
+   "replacement": "gemini-omni-1.1-flash",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-3-pro-image-preview",
+   "provider": "Google",
+   "shutdown": "2026-06-25",
+   "replacement": "gemini-3-pro-image",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-3.1-flash-image-preview",
+   "provider": "Google",
+   "shutdown": "2026-06-25",
+   "replacement": "gemini-nano-banana-2.1",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"
   },
   {
    "id": "gemini-2.0-flash",
    "provider": "Google",
    "shutdown": "2026-06-01",
-   "replacement": "a current Gemini model",
+   "replacement": "gemini-3.6-flash",
    "note": "Already shut down: requests fail today.",
-   "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-2.0-flash-001",
+   "provider": "Google",
+   "shutdown": "2026-06-01",
+   "replacement": "gemini-3.6-flash",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-2.0-flash-lite",
+   "provider": "Google",
+   "shutdown": "2026-06-01",
+   "replacement": "gemini-3.1-flash-lite",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-2.0-flash-lite-001",
+   "provider": "Google",
+   "shutdown": "2026-06-01",
+   "replacement": "gemini-3.1-flash-lite",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-3.1-flash-lite-preview",
+   "provider": "Google",
+   "shutdown": "2026-05-25",
+   "replacement": "gemini-3.1-flash-lite",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-2.5-flash-lite-preview-09-2025",
+   "provider": "Google",
+   "shutdown": "2026-03-31",
+   "replacement": "gemini-3.1-flash-lite",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"
   },
   {
    "id": "gemini-3-pro-preview",
    "provider": "Google",
    "shutdown": "2026-03-09",
-   "replacement": "a current Gemini model",
+   "replacement": "gemini-3.1-pro-preview",
    "note": "Already shut down: requests fail today.",
-   "source": "https://ai.google.dev/gemini-api/docs/deprecations",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-2.5-flash-preview-09-2025",
+   "provider": "Google",
+   "shutdown": "2026-02-17",
+   "replacement": "gemini-3.6-flash",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-2.5-flash-image-preview",
+   "provider": "Google",
+   "shutdown": "2026-01-15",
+   "replacement": "gemini-nano-banana-2.1",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "text-embedding-004",
+   "provider": "Google",
+   "shutdown": "2026-01-14",
+   "replacement": "gemini-embedding-2",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "embedding-001",
+   "provider": "Google",
+   "shutdown": "2025-10-30",
+   "replacement": "gemini-embedding-2",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"
   }
  ],
