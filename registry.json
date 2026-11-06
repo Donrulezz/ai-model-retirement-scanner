@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "models": [
   {
    "id": "gpt-4o-2024-08-06",
@@ -86,7 +86,7 @@
    "id": "gpt-image-1-mini",
    "provider": "OpenAI",
    "shutdown": "2026-12-01",
-   "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
+   "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
    "note": "",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -95,7 +95,7 @@
    "id": "gpt-image-1.5",
    "provider": "OpenAI",
    "shutdown": "2026-12-01",
-   "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
+   "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
    "note": "",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -104,7 +104,7 @@
    "id": "gpt-image-1.5-2025-12-16",
    "provider": "OpenAI",
    "shutdown": "2026-12-01",
-   "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
+   "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
    "note": "",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -113,7 +113,7 @@
    "id": "chatgpt-image-latest",
    "provider": "OpenAI",
    "shutdown": "2026-12-01",
-   "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
+   "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
    "note": "",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -461,6 +461,15 @@
    "match": "endpoint"
   },
   {
+   "id": "gpt-5.5-cyber-preview",
+   "provider": "OpenAI",
+   "shutdown": "2027-02-01",
+   "replacement": "the most capable cyber model available to you",
+   "note": "",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
    "id": "gpt-5.3-codex",
    "provider": "OpenAI",
    "shutdown": "2027-04-01",
@@ -709,6 +718,15 @@
    "shutdown": "2026-10-23",
    "replacement": "gpt-5.6-terra",
    "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-terra).",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gpt-5.4-cyber",
+   "provider": "OpenAI",
+   "shutdown": "2026-10-01",
+   "replacement": "the most capable cyber model available to you",
+   "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },

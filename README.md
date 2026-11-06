@@ -8,15 +8,15 @@ When a provider retires a model, requests to it fail. OpenAI shuts down `gpt-4o`
 nodes whose export leaves the default model out. This scanner reads them all, offline, and can block a merge in CI.
 
 ```
-node cli.js example --today 2026-11-05
+node cli.js example --today 2026-11-06
 ```
 ```
 where                                                         model        shutdown                  move to
-example/summarize.py (line 8)                                 gpt-4o-mini  2027-01-14 (in 70 days)   gpt-6-luna
-example/support-workflow.json (Support replies > Reply model)  gpt-4.1      2027-01-14 (in 70 days)   gpt-6-luna
-example/support-workflow.json (Support replies > Transcribe call)  whisper-1    2027-02-26 (in 113 days)  gpt-transcribe or gpt-live-transcribe
+example/summarize.py (line 8)                                 gpt-4o-mini  2027-01-14 (in 69 days)   gpt-6-luna
+example/support-workflow.json (Support replies > Reply model)  gpt-4.1      2027-01-14 (in 69 days)   gpt-6-luna
+example/support-workflow.json (Support replies > Transcribe call)  whisper-1    2027-02-26 (in 112 days)  gpt-transcribe or gpt-live-transcribe
 
-3 finding(s) in 2 files, 2 due within 90 days (registry updated 2026-11-05).
+3 finding(s) in 2 files, 2 due within 90 days (registry updated 2026-11-06).
 ```
 (`example/` is in this repo: a Python file and an exported n8n workflow. The transcription node never names its model:
 n8n hardcodes `whisper-1` for it.)
@@ -79,7 +79,7 @@ so `gpt-4o-mini` can be in use without appearing in the JSON.
 | 2026-11-30 | OpenAI | `/v1/evals` | your own eval runner (OpenAI points to Promptfoo) |
 | 2026-12-01 | Google | `gemini-2.5-flash` | gemini-3.5-flash-lite |
 | 2026-12-01 | Google | `gemini-2.5-pro` | gemini-3.8-flash |
-| 2026-12-01 | OpenAI | `gpt-image-1-mini`, `gpt-image-1.5`, `gpt-image-1.5-2025-12-16`, `chatgpt-image-latest` | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
+| 2026-12-01 | OpenAI | `gpt-image-1-mini`, `gpt-image-1.5`, `gpt-image-1.5-2025-12-16`, `chatgpt-image-latest` | gpt-image-2.6-sunburst or gpt-image-2.6-flare |
 | 2026-12-11 | OpenAI | `gpt-5-nano`, `gpt-5-nano-2025-08-07` | gpt-5.6-luna |
 | 2026-12-11 | OpenAI | `gpt-5`, `gpt-5-2025-08-07`, `o3`, `o3-2025-04-16`, `gpt-5-pro`, `gpt-5-pro-2025-10-06`, `o3-pro`, `o3-pro-2025-06-10` | gpt-5.6-sol |
 | 2026-12-11 | OpenAI | `gpt-5-mini`, `gpt-5-mini-2025-08-07` | gpt-5.6-terra |
@@ -89,6 +89,7 @@ so `gpt-4o-mini` can be in use without appearing in the JSON.
 | 2027-01-20 | OpenAI | `gpt-audio`, `gpt-audio-2025-08-28`, `gpt-audio-mini`, `gpt-audio-mini-2025-12-15`, `gpt-4o-audio*`, `gpt-4o-mini-audio*` | gpt-audio-1.5 |
 | 2027-01-20 | OpenAI | `gpt-realtime`, `gpt-realtime-2025-08-28`, `gpt-4o-realtime*` | gpt-realtime-2.1 |
 | 2027-01-20 | OpenAI | `gpt-realtime-mini`, `gpt-realtime-mini-2025-12-15`, `gpt-4o-mini-realtime*` | gpt-realtime-2.1-mini |
+| 2027-02-01 | OpenAI | `gpt-5.5-cyber-preview` | the most capable cyber model available to you |
 | 2027-02-26 | OpenAI | `whisper-1`, `gpt-4o-transcribe`, `gpt-4o-mini-transcribe`, `gpt-4o-mini-transcribe-2025-12-15`, `gpt-4o-transcribe-diarize` | gpt-transcribe or gpt-live-transcribe |
 | 2027-02-26 | OpenAI | `/v1/audio/translations` | v1/realtime/translations |
 | 2027-03-15 | Google | `gemini-2.5-flash-image` | gemini-3.1-flash-lite-image |
