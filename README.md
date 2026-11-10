@@ -8,15 +8,15 @@ When a provider retires a model, requests to it fail. OpenAI shuts down `gpt-4o`
 nodes whose export leaves the default model out. This scanner reads them all, offline, and can block a merge in CI.
 
 ```
-node cli.js example --today 2026-11-06
+node cli.js example --today 2026-11-10
 ```
 ```
 where                                                         model        shutdown                  move to
-example/summarize.py (line 8)                                 gpt-4o-mini  2027-01-14 (in 69 days)   gpt-6-luna
-example/support-workflow.json (Support replies > Reply model)  gpt-4.1      2027-01-14 (in 69 days)   gpt-6-luna
-example/support-workflow.json (Support replies > Transcribe call)  whisper-1    2027-02-26 (in 112 days)  gpt-transcribe or gpt-live-transcribe
+example/summarize.py (line 8)                                 gpt-4o-mini  2027-01-14 (in 65 days)   gpt-6-luna
+example/support-workflow.json (Support replies > Reply model)  gpt-4.1      2027-01-14 (in 65 days)   gpt-6-luna
+example/support-workflow.json (Support replies > Transcribe call)  whisper-1    2027-02-26 (in 108 days)  gpt-transcribe or gpt-live-transcribe
 
-3 finding(s) in 2 files, 2 due within 90 days (registry updated 2026-11-06).
+3 finding(s) in 2 files, 2 due within 90 days (registry updated 2026-11-10).
 ```
 (`example/` is in this repo: a Python file and an exported n8n workflow. The transcription node never names its model:
 n8n hardcodes `whisper-1` for it.)
@@ -90,6 +90,7 @@ so `gpt-4o-mini` can be in use without appearing in the JSON.
 | 2027-01-20 | OpenAI | `gpt-realtime`, `gpt-realtime-2025-08-28`, `gpt-4o-realtime*` | gpt-realtime-2.1 |
 | 2027-01-20 | OpenAI | `gpt-realtime-mini`, `gpt-realtime-mini-2025-12-15`, `gpt-4o-mini-realtime*` | gpt-realtime-2.1-mini |
 | 2027-02-01 | OpenAI | `gpt-5.5-cyber-preview` | the most capable cyber model available to you |
+| 2027-02-10 | OpenAI | `gpt-image-2`, `gpt-image-2-2026-04-21` | gpt-image-2.6-sunburst or gpt-image-2.6-flare |
 | 2027-02-26 | OpenAI | `whisper-1`, `gpt-4o-transcribe`, `gpt-4o-mini-transcribe`, `gpt-4o-mini-transcribe-2025-12-15`, `gpt-4o-transcribe-diarize` | gpt-transcribe or gpt-live-transcribe |
 | 2027-02-26 | OpenAI | `/v1/audio/translations` | v1/realtime/translations |
 | 2027-03-15 | Google | `gemini-2.5-flash-image` | gemini-3.1-flash-lite-image |

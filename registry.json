@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-10",
  "models": [
   {
    "id": "gpt-4o-2024-08-06",
@@ -465,6 +465,24 @@
    "provider": "OpenAI",
    "shutdown": "2027-02-01",
    "replacement": "the most capable cyber model available to you",
+   "note": "",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gpt-image-2",
+   "provider": "OpenAI",
+   "shutdown": "2027-02-10",
+   "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
+   "note": "",
+   "source": "https://developers.openai.com/api/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gpt-image-2-2026-04-21",
+   "provider": "OpenAI",
+   "shutdown": "2027-02-10",
+   "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
    "note": "",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
