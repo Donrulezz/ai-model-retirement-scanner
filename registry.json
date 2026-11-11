@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "models": [
   {
    "id": "gpt-4o-2024-08-06",
@@ -902,6 +902,15 @@
    "match": "exact"
   },
   {
+   "id": "gemini-omni-1.1-flash",
+   "provider": "Google",
+   "shutdown": "2026-12-03",
+   "replacement": "gemini-omni-1.2-flash",
+   "note": "Gemini API: from this date Google routes requests to gemini-omni-1.2-flash and bills them at its rates instead of refusing them. Check the breaking API changes in Google's migration guide before the switch.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
    "id": "gemini-2.5-flash-image",
    "provider": "Google",
    "shutdown": "2027-03-15",
@@ -932,7 +941,7 @@
    "id": "veo-3.1-generate-preview",
    "provider": "Google",
    "shutdown": "2026-10-22",
-   "replacement": "gemini-omni-1.1-flash",
+   "replacement": "gemini-omni-1.2-flash",
    "note": "Already shut down: requests fail today.",
    "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"
@@ -941,7 +950,7 @@
    "id": "veo-3.1-fast-generate-preview",
    "provider": "Google",
    "shutdown": "2026-10-22",
-   "replacement": "gemini-omni-1.1-flash",
+   "replacement": "gemini-omni-1.2-flash",
    "note": "Already shut down: requests fail today.",
    "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"
@@ -950,8 +959,26 @@
    "id": "veo-3.1-lite-generate-preview",
    "provider": "Google",
    "shutdown": "2026-10-22",
-   "replacement": "gemini-omni-1.1-flash",
+   "replacement": "gemini-omni-1.2-flash",
    "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-omni-flash-preview",
+   "provider": "Google",
+   "shutdown": "2026-10-22",
+   "replacement": "gemini-omni-1.2-flash",
+   "note": "Already shut down: requests fail today.",
+   "source": "https://aistudio.google.com/docs/deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "gemini-embedding-2-preview",
+   "provider": "Google",
+   "shutdown": "2026-11-06",
+   "replacement": "gemini-embedding-2",
+   "note": "Gemini API: since 6 November 2026 Google routes requests for this preview to gemini-embedding-2.",
    "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"
   },
@@ -986,7 +1013,7 @@
    "id": "veo-3.0-generate-001",
    "provider": "Google",
    "shutdown": "2026-06-30",
-   "replacement": "gemini-omni-1.1-flash",
+   "replacement": "gemini-omni-1.2-flash",
    "note": "Already shut down: requests fail today.",
    "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"
@@ -995,7 +1022,7 @@
    "id": "veo-3.0-fast-generate-001",
    "provider": "Google",
    "shutdown": "2026-06-30",
-   "replacement": "gemini-omni-1.1-flash",
+   "replacement": "gemini-omni-1.2-flash",
    "note": "Already shut down: requests fail today.",
    "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"
@@ -1004,7 +1031,7 @@
    "id": "veo-2.0-generate-001",
    "provider": "Google",
    "shutdown": "2026-06-30",
-   "replacement": "gemini-omni-1.1-flash",
+   "replacement": "gemini-omni-1.2-flash",
    "note": "Already shut down: requests fail today.",
    "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"

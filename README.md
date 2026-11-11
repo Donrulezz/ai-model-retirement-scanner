@@ -8,15 +8,15 @@ When a provider retires a model, requests to it fail. OpenAI shuts down `gpt-4o`
 nodes whose export leaves the default model out. This scanner reads them all, offline, and can block a merge in CI.
 
 ```
-node cli.js example --today 2026-11-10
+node cli.js example --today 2026-11-11
 ```
 ```
 where                                                         model        shutdown                  move to
-example/summarize.py (line 8)                                 gpt-4o-mini  2027-01-14 (in 65 days)   gpt-6-luna
-example/support-workflow.json (Support replies > Reply model)  gpt-4.1      2027-01-14 (in 65 days)   gpt-6-luna
-example/support-workflow.json (Support replies > Transcribe call)  whisper-1    2027-02-26 (in 108 days)  gpt-transcribe or gpt-live-transcribe
+example/summarize.py (line 8)                                 gpt-4o-mini  2027-01-14 (in 64 days)   gpt-6-luna
+example/support-workflow.json (Support replies > Reply model)  gpt-4.1      2027-01-14 (in 64 days)   gpt-6-luna
+example/support-workflow.json (Support replies > Transcribe call)  whisper-1    2027-02-26 (in 107 days)  gpt-transcribe or gpt-live-transcribe
 
-3 finding(s) in 2 files, 2 due within 90 days (registry updated 2026-11-10).
+3 finding(s) in 2 files, 2 due within 90 days (registry updated 2026-11-11).
 ```
 (`example/` is in this repo: a Python file and an exported n8n workflow. The transcription node never names its model:
 n8n hardcodes `whisper-1` for it.)
@@ -68,6 +68,7 @@ so `gpt-4o-mini` can be in use without appearing in the JSON.
 
 | Date | Provider | Model IDs | Move to |
 |---|---|---|---|
+| 2026-11-06 | Google | `gemini-embedding-2-preview` | gemini-embedding-2 |
 | 2026-11-15 | Azure OpenAI | `codex-mini` | a current model (Microsoft names none) |
 | 2026-11-17 | Google | `gemini-3.1-flash-tts-preview`, `gemini-2.5-flash-preview-tts`, `gemini-2.5-pro-preview-tts` | gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts |
 | 2026-11-17 | Google | `gemini-3.1-flash-live-preview`, `gemini-2.5-flash-native-audio-preview-12-2025` | gemini-3.8-live |
@@ -80,6 +81,7 @@ so `gpt-4o-mini` can be in use without appearing in the JSON.
 | 2026-12-01 | Google | `gemini-2.5-flash` | gemini-3.5-flash-lite |
 | 2026-12-01 | Google | `gemini-2.5-pro` | gemini-3.8-flash |
 | 2026-12-01 | OpenAI | `gpt-image-1-mini`, `gpt-image-1.5`, `gpt-image-1.5-2025-12-16`, `chatgpt-image-latest` | gpt-image-2.6-sunburst or gpt-image-2.6-flare |
+| 2026-12-03 | Google | `gemini-omni-1.1-flash` | gemini-omni-1.2-flash |
 | 2026-12-11 | OpenAI | `gpt-5-nano`, `gpt-5-nano-2025-08-07` | gpt-5.6-luna |
 | 2026-12-11 | OpenAI | `gpt-5`, `gpt-5-2025-08-07`, `o3`, `o3-2025-04-16`, `gpt-5-pro`, `gpt-5-pro-2025-10-06`, `o3-pro`, `o3-pro-2025-06-10` | gpt-5.6-sol |
 | 2026-12-11 | OpenAI | `gpt-5-mini`, `gpt-5-mini-2025-08-07` | gpt-5.6-terra |
