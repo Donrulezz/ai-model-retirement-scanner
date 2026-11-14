@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-14",
  "models": [
   {
    "id": "gpt-4o-2024-08-06",
@@ -122,8 +122,8 @@
    "id": "gpt-5",
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
-   "replacement": "gpt-5.6-sol",
-   "note": "",
+   "replacement": "gpt-6.1-sol",
+   "note": "OpenAI's model page says tool calling on this replacement requires the Responses API.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -131,8 +131,8 @@
    "id": "gpt-5-2025-08-07",
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
-   "replacement": "gpt-5.6-sol",
-   "note": "",
+   "replacement": "gpt-6.1-sol",
+   "note": "OpenAI's model page says tool calling on this replacement requires the Responses API.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -140,8 +140,8 @@
    "id": "o3",
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
-   "replacement": "gpt-5.6-sol",
-   "note": "On Azure OpenAI it retires earlier, on 19 November 2026.",
+   "replacement": "gpt-6.1-sol",
+   "note": "OpenAI's model page says tool calling on this replacement requires the Responses API. On Azure OpenAI it retires earlier, on 19 November 2026.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -149,8 +149,8 @@
    "id": "o3-2025-04-16",
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
-   "replacement": "gpt-5.6-sol",
-   "note": "On Azure OpenAI it retires earlier, on 19 November 2026.",
+   "replacement": "gpt-6.1-sol",
+   "note": "OpenAI's model page says tool calling on this replacement requires the Responses API. On Azure OpenAI it retires earlier, on 19 November 2026.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -158,8 +158,8 @@
    "id": "gpt-5-mini",
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
-   "replacement": "gpt-5.6-terra",
-   "note": "",
+   "replacement": "gpt-6.1-terra",
+   "note": "OpenAI's model page says tool calling on this replacement requires the Responses API.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -167,8 +167,8 @@
    "id": "gpt-5-mini-2025-08-07",
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
-   "replacement": "gpt-5.6-terra",
-   "note": "",
+   "replacement": "gpt-6.1-terra",
+   "note": "OpenAI's model page says tool calling on this replacement requires the Responses API.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -176,8 +176,8 @@
    "id": "gpt-5-nano",
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
-   "replacement": "gpt-5.6-luna",
-   "note": "",
+   "replacement": "gpt-6-luna",
+   "note": "gpt-6-luna is a reasoning model: on Chat Completions, tool calls work only with reasoning_effort none, and temperature/top_p must go unless effort is none.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -185,8 +185,8 @@
    "id": "gpt-5-nano-2025-08-07",
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
-   "replacement": "gpt-5.6-luna",
-   "note": "",
+   "replacement": "gpt-6-luna",
+   "note": "gpt-6-luna is a reasoning model: on Chat Completions, tool calls work only with reasoning_effort none, and temperature/top_p must go unless effort is none.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -194,8 +194,8 @@
    "id": "gpt-5-pro",
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
-   "replacement": "gpt-5.6-sol",
-   "note": "Use reasoning.mode pro on the replacement.",
+   "replacement": "gpt-6.1-sol",
+   "note": "Use reasoning.mode pro on the replacement, in the Responses API.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -203,8 +203,8 @@
    "id": "gpt-5-pro-2025-10-06",
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
-   "replacement": "gpt-5.6-sol",
-   "note": "Use reasoning.mode pro on the replacement.",
+   "replacement": "gpt-6.1-sol",
+   "note": "Use reasoning.mode pro on the replacement, in the Responses API.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -212,8 +212,8 @@
    "id": "o3-pro",
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
-   "replacement": "gpt-5.6-sol",
-   "note": "Use reasoning.mode pro on the replacement. On Azure OpenAI it retires earlier, on 19 November 2026.",
+   "replacement": "gpt-6.1-sol",
+   "note": "Use reasoning.mode pro on the replacement, in the Responses API. On Azure OpenAI it retires earlier, on 19 November 2026.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -221,8 +221,8 @@
    "id": "o3-pro-2025-06-10",
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
-   "replacement": "gpt-5.6-sol",
-   "note": "Use reasoning.mode pro on the replacement. On Azure OpenAI it retires earlier, on 19 November 2026.",
+   "replacement": "gpt-6.1-sol",
+   "note": "Use reasoning.mode pro on the replacement, in the Responses API. On Azure OpenAI it retires earlier, on 19 November 2026.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
