@@ -69,9 +69,10 @@ so `gpt-4o-mini` can be in use without appearing in the JSON.
 | Date | Provider | Model IDs | Move to |
 |---|---|---|---|
 | 2026-11-06 | Google | `gemini-embedding-2-preview` | gemini-embedding-2 |
-| 2026-11-15 | Azure OpenAI | `codex-mini` | a current model (Microsoft names none) |
+| 2026-11-17 | Azure OpenAI | `codex-mini` | a current model (Microsoft names none) |
 | 2026-11-19 | Azure OpenAI | `o3-deep-research` | gpt-5.6-sol |
 | 2026-11-19 | Microsoft Foundry | `Llama-4-Maverick-17B-128E-Instruct-FP8` | a current model (Microsoft names none) |
+| 2026-11-24 | Microsoft Foundry | `MAI-Image-2.5-Pro`, `MAI-Image-2.5-Flash`, `MAI-Image-2.5` | a current model (Microsoft names none) |
 | 2026-11-30 | Anthropic | `claude-sonnet-4-5-20250929` | claude-sonnet-5-5 |
 | 2026-11-30 | Microsoft Foundry | `claude-sonnet-4-5` | claude-sonnet-5-5 |
 | 2026-11-30 | OpenAI | `/v1/prompts` | prompts kept in your own code |

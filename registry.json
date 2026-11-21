@@ -141,7 +141,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
    "replacement": "gpt-6.1-sol",
-   "note": "OpenAI's model page says tool calling on this replacement requires the Responses API. On Azure OpenAI it retires earlier, on 19 November 2026.",
+   "note": "OpenAI's model page says tool calling on this replacement requires the Responses API. On Azure OpenAI it retired earlier, on 19 November 2026.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -150,7 +150,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
    "replacement": "gpt-6.1-sol",
-   "note": "OpenAI's model page says tool calling on this replacement requires the Responses API. On Azure OpenAI it retires earlier, on 19 November 2026.",
+   "note": "OpenAI's model page says tool calling on this replacement requires the Responses API. On Azure OpenAI it retired earlier, on 19 November 2026.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -213,7 +213,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
    "replacement": "gpt-6.1-sol",
-   "note": "Use reasoning.mode pro on the replacement, in the Responses API. On Azure OpenAI it retires earlier, on 19 November 2026.",
+   "note": "Use reasoning.mode pro on the replacement, in the Responses API. On Azure OpenAI it retired earlier, on 19 November 2026.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -222,7 +222,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-12-11",
    "replacement": "gpt-6.1-sol",
-   "note": "Use reasoning.mode pro on the replacement, in the Responses API. On Azure OpenAI it retires earlier, on 19 November 2026.",
+   "note": "Use reasoning.mode pro on the replacement, in the Responses API. On Azure OpenAI it retired earlier, on 19 November 2026.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -672,7 +672,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
    "replacement": "gpt-5.6-sol",
-   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-sol).",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments ran until 19 November 2026 (Microsoft's replacement: gpt-5.6-sol).",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -681,7 +681,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
    "replacement": "gpt-5.6-sol",
-   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-sol).",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments ran until 19 November 2026 (Microsoft's replacement: gpt-5.6-sol).",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -690,7 +690,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
    "replacement": "gpt-5.6-sol (reasoning.mode pro)",
-   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-sol).",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments ran until 19 November 2026 (Microsoft's replacement: gpt-5.6-sol).",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -699,7 +699,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
    "replacement": "gpt-5.6-sol (reasoning.mode pro)",
-   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-sol).",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments ran until 19 November 2026 (Microsoft's replacement: gpt-5.6-sol).",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -708,7 +708,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
    "replacement": "gpt-5.6-sol",
-   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-terra).",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments ran until 19 November 2026 (Microsoft's replacement: gpt-5.6-terra).",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -717,7 +717,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
    "replacement": "gpt-5.6-sol",
-   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-terra).",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments ran until 19 November 2026 (Microsoft's replacement: gpt-5.6-terra).",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -726,7 +726,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
    "replacement": "gpt-5.6-terra",
-   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-terra).",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments ran until 19 November 2026 (Microsoft's replacement: gpt-5.6-terra).",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -735,7 +735,7 @@
    "provider": "OpenAI",
    "shutdown": "2026-10-23",
    "replacement": "gpt-5.6-terra",
-   "note": "Already shut down: requests fail today. Azure OpenAI deployments run until 19 November 2026 (Microsoft's replacement: gpt-5.6-terra).",
+   "note": "Already shut down: requests fail today. Azure OpenAI deployments ran until 19 November 2026 (Microsoft's replacement: gpt-5.6-terra).",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
   },
@@ -805,7 +805,7 @@
   {
    "id": "codex-mini",
    "provider": "Azure OpenAI",
-   "shutdown": "2026-11-15",
+   "shutdown": "2026-11-17",
    "replacement": "a current model (Microsoft names none)",
    "note": "Azure OpenAI model codex-mini, version 2025-05-16. After this date requests return 410 Gone.",
    "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
@@ -826,6 +826,33 @@
    "shutdown": "2026-11-19",
    "replacement": "a current model (Microsoft names none)",
    "note": "Date for Microsoft Foundry deployments. After it, requests return 410 Gone.",
+   "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "match": "exact"
+  },
+  {
+   "id": "MAI-Image-2.5-Pro",
+   "provider": "Microsoft Foundry",
+   "shutdown": "2026-11-24",
+   "replacement": "a current model (Microsoft names none)",
+   "note": "Preview image model on Microsoft Foundry; the date is from Microsoft's retirement schedule.",
+   "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "match": "exact"
+  },
+  {
+   "id": "MAI-Image-2.5-Flash",
+   "provider": "Microsoft Foundry",
+   "shutdown": "2026-11-24",
+   "replacement": "a current model (Microsoft names none)",
+   "note": "Preview image model on Microsoft Foundry; the date is from Microsoft's retirement schedule.",
+   "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "match": "exact"
+  },
+  {
+   "id": "MAI-Image-2.5",
+   "provider": "Microsoft Foundry",
+   "shutdown": "2026-11-24",
+   "replacement": "a current model (Microsoft names none)",
+   "note": "Preview image model on Microsoft Foundry; the date is from Microsoft's retirement schedule.",
    "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
    "match": "exact"
   },
