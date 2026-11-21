@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-21",
  "models": [
   {
    "id": "gpt-4o-2024-08-06",
@@ -752,7 +752,7 @@
    "id": "gpt-3.5-turbo-instruct",
    "provider": "OpenAI",
    "shutdown": "2026-09-28",
-   "replacement": "a current model",
+   "replacement": "gpt-5.6-terra",
    "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -761,7 +761,7 @@
    "id": "gpt-3.5-turbo-1106",
    "provider": "OpenAI",
    "shutdown": "2026-09-28",
-   "replacement": "a current model",
+   "replacement": "gpt-5.6-terra",
    "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -770,7 +770,7 @@
    "id": "babbage-002",
    "provider": "OpenAI",
    "shutdown": "2026-09-28",
-   "replacement": "a current model",
+   "replacement": "gpt-5.6-terra",
    "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -779,7 +779,7 @@
    "id": "davinci-002",
    "provider": "OpenAI",
    "shutdown": "2026-09-28",
-   "replacement": "a current model",
+   "replacement": "gpt-5.6-terra",
    "note": "Already shut down: requests fail today.",
    "source": "https://developers.openai.com/api/docs/deprecations",
    "match": "exact"
@@ -834,14 +834,14 @@
    "provider": "Microsoft Foundry",
    "shutdown": "2026-11-30",
    "replacement": "claude-sonnet-5-5",
-   "note": "The name Microsoft Foundry uses (version 1). On the Claude API, Anthropic's notice lists only the snapshot claude-sonnet-4-5-20250929, same date, so expect the alias to stop with it.",
+   "note": "The name Microsoft Foundry uses (version 1). On the Claude API, Anthropic's notice says the retirement of claude-sonnet-4-5-20250929 includes claude-sonnet-4-5, the same model's ID without a date.",
    "source": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
    "match": "exact"
   },
   {
    "id": "gemini-3.1-flash-tts-preview",
    "provider": "Google",
-   "shutdown": "2026-11-17",
+   "shutdown": "2026-12-18",
    "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
    "note": "",
    "source": "https://aistudio.google.com/docs/deprecations",
@@ -850,7 +850,7 @@
   {
    "id": "gemini-2.5-flash-preview-tts",
    "provider": "Google",
-   "shutdown": "2026-11-17",
+   "shutdown": "2026-12-18",
    "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
    "note": "",
    "source": "https://aistudio.google.com/docs/deprecations",
@@ -859,17 +859,8 @@
   {
    "id": "gemini-2.5-pro-preview-tts",
    "provider": "Google",
-   "shutdown": "2026-11-17",
+   "shutdown": "2026-12-18",
    "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
-   "note": "",
-   "source": "https://aistudio.google.com/docs/deprecations",
-   "match": "exact"
-  },
-  {
-   "id": "gemini-3.1-flash-live-preview",
-   "provider": "Google",
-   "shutdown": "2026-11-17",
-   "replacement": "gemini-3.8-live",
    "note": "",
    "source": "https://aistudio.google.com/docs/deprecations",
    "match": "exact"
@@ -877,7 +868,7 @@
   {
    "id": "gemini-2.5-flash-native-audio-preview-12-2025",
    "provider": "Google",
-   "shutdown": "2026-11-17",
+   "shutdown": "2027-03-31",
    "replacement": "gemini-3.8-live",
    "note": "",
    "source": "https://aistudio.google.com/docs/deprecations",
