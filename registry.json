@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-25",
  "models": [
   {
    "id": "gpt-4o-2024-08-06",
@@ -799,6 +799,24 @@
    "shutdown": "2026-11-30",
    "replacement": "claude-sonnet-5-5",
    "note": "Requests to retired models fail.",
+   "source": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "claude-opus-4-5-20251101",
+   "provider": "Anthropic",
+   "shutdown": "2027-01-22",
+   "replacement": "claude-opus-5-5",
+   "note": "Requests to retired models fail.",
+   "source": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "match": "exact"
+  },
+  {
+   "id": "claude-opus-4-5",
+   "provider": "Anthropic",
+   "shutdown": "2027-01-22",
+   "replacement": "claude-opus-5-5",
+   "note": "The same model's ID without a date; Anthropic's notice says the retirement includes it. Microsoft Foundry's own schedule lists 22 February 2027 for its claude-opus-4-5 (read 25 November 2026). Plan for the earlier date.",
    "source": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
    "match": "exact"
   },
